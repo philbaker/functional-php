@@ -8,14 +8,12 @@ function _each($items, $func) {
     }
 }
 
-
 $names = [
     'Barry',
     'Jo',
     'Anne',
     'Isabella'
 ];
-
 
 $upperNames = _each($names, function ($value) {
     var_dump(strtoupper($value));

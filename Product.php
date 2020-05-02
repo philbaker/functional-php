@@ -18,6 +18,10 @@ class Product {
     function getPrice() {
         return $this->price;
     }
+
+    function getStock() {
+        return $this->stock;
+    }
     
     function isOutOfStock() {
         return $this->stock == 0;
